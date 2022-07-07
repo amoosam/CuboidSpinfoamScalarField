@@ -1,0 +1,20 @@
+title = "simulation parameters"
+
+[lattice]
+latticeSize = 5
+upperCutOff = 1e4
+lowerCutOff = 5e-5
+upperInitBound = 1e5
+lowerInitBound = 1e-5
+fieldInit = 1
+
+[MCsimulation]
+thermalizationSteps = 1e8
+samples = 2000
+samplesToSkip = 200000
+
+[machine]
+blasThreads = 1
+
+[data]
+outputDir = "Data/RescaleShift/"
